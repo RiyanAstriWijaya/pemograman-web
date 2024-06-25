@@ -1,0 +1,16 @@
+button {
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: "Lato";
+  margin-top: 9px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: orange;
+}
