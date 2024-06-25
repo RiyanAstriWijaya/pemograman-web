@@ -1,0 +1,29 @@
+.loader {
+  width: 100px;
+  position: absolute;
+  top: 80px;
+  left: 240px;
+  z-index: -1;
+  display: none;
+}
+
+@media print {
+  .logout,
+  .tambah,
+  .form-cari,
+  .aksi {
+    display: none;
+  }
+}
+
+.h1-log {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+  color: gray;
+}
+
+.h1-in {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: darkslategray;
+}
